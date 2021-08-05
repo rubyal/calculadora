@@ -5,5 +5,5 @@ c=a+b
 print(c)
 d=a-b
 print(d)
-f=a*b
+f=d/a
 print(f)
