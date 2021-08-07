@@ -1,4 +1,9 @@
-numeros=[1,2,40,4,5,6,80,8,9,10,34]
-print("se inicia programa")
-for n in range(0,len(numeros)):
-    print(numeros[n])
+numeros=[1,2,3,4,5,6,7,8,9,10]
+print(numeros)
+dato=input()
+numero=int(dato)
+if(numero in numeros):
+    print("SI")
+if(numero not in numeros):
+    print("NO")
+
