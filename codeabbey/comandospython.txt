@@ -1,0 +1,65 @@
+#OPERADORES ARITMETICOS
+suma=numero1+numero2
+resta=numero1-numero2
+multiplicacion=numero1*numero2
+division=numero1/numero2
+resto=numero1%numero2*lo que sobra de una division
+cociente=numero1//numero2*cociente de una division
+exponente=numero1**numero2
+
+
+#OPERADORES ASIGNACION
+=,+=,-=,*=,/=,**=
+--> numero+=5
+--> numero=numero+5
+
+#OPERADORES COMPARACIÓN (true and false)
+es igual?  numero1 == numero2
+es distinto de? numero1 != numero2
+es mayor que? numero1 > numero2
+es menor que? numero1 < numero2
+es mayor o igual que? numero1 >= numero2
+es menor o igual que? numero1 <= numero2
+
+#OPERADORES LOGICOS
+(numero1 > numero2) and (numero1 < numero2) ---> las dos tienen que ser verdaderas (true)
+(numero1 > numero2) and (numero1 > numero2) ---> si una de las dos es false (false)
+
+(numero1 > numero2) or (numero1 < numero2) ---> Si alguna es true (true)
+
+(numero1 > numero2) not (numero1 > numero2) ---> si es false (true) y viceversa
+
+#OPERADORES DE IDENTIDAD
+si esta en la variable o esta los mismos datos -->is
+si no esta en la variable --> is not
+
+#OPERADORES DE PERTENENCIA 
+si un dato esta incluido en la lista --> in
+si un dato  NO esta incluido en la lista --> not in
+
+
+
+
+
+
+
+
+
+#LISTAS
+
+cuando quiero crear una lista
+for color in colores:
+    print(color)
+
+cuando quiero añadir 
+print(colores.append("naranja"))
+
+
+cuando quiero quitar todos los datos de una lista
+print(colores.clear())
+
+cuando quiero quitar solo un dato de una lista
+print(colores.remove("rojo"))
+
+cuando quiero quitar contar los datos de una lista
+print(len(colores))
