@@ -149,6 +149,7 @@ if (a<b) and (b<d):
 else:
     print("la primera no es correcta")
 
+
 if a>b:
     print("a es mayor que b")
 elif (a==b):
@@ -156,4 +157,30 @@ elif (a==b):
 else:
     print("ninguna es correcta")
 
+for: poner en una lista hacia abajo
+
+range (3,8)-> imprime hasta 7 "un numero menos
+range (3,8,2)-> imprime hasta 7 "un numero menos y va de 2 en 2
+
+break: para el bucle
+for numero in range (10):
+    if (numero ==5):
+        break
+    print(numero)
+continue:parar solo la iteracción actual
+  print(numero)
+for numero in range (10):
+    if (numero==6):
+        continue
+    print(numero)
+    -->omite el 6
+doble for: 
+for numero1 in range (4):--->0123----(000,111)
+    for numero2 in range(3): --->012 
+        print(numero1,numero2)
+
+while: mientras que se haga esta CONDICION
+while(valor<fin):
+    print(valor)
+    valor=valor+1 
 
