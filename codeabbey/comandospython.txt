@@ -1,3 +1,47 @@
+Tipos de datos
+    int=numero entero
+    float=numero decimal
+    set=conjunto
+    char=un solo carater
+    str=cadena de caracteres
+
+
+
+cadena de caracteres (string str)
+
+#HOLA MUNDO
+#0123456789
+
+saber que se encuentra en x posición
+cadena(6)
+
+saber que se encuentra en x posición hasta x posición
+cadena(6:8)
+
+contar cadena 
+len(cadena)
+
+mostrar en mayusculas
+cadena.upper()    /  cadena = cadena.upper() 
+
+mostrar en mayusculas
+cadena.lower()    /  cadena = cadena.lower() 
+
+saber que palabras estan adentro de la cadena
+cadena.split() si hay , poner (,)
+
+
+IMPRIMIR VARIABLES EN UNA cadena
+print()
+print(    + palabra)
+print("buenos dias {}, feliz {} cumpleaños".format(nombre,edad))
+print ("el resultdo es {r}".format(r=resultado))
+                    1.3f (un entero tres decimales)
+print(f."Buenos dias {nombre}, feliz {edad} cumpleaños")
+
+
+
+
 #OPERADORES ARITMETICOS
 suma=numero1+numero2
 resta=numero1-numero2
@@ -56,16 +100,37 @@ print(colores.remove("rojo"))
 cuando quiero quitar contar los datos de una lista
 print(len(colores))
 
+cuando se quiere consultar un dato
+dato=input()
+
+
+ejemplo:
+lista=[1,2,5,25,33,56,75,21,56,89,43,62,24]
+numero=21
+if (numero in lista):
+    print ("esta en la lista")
+else:
+    print("no se encuentra")
+
 #TUPLA 
     Coleccion de elementos que no se pueden modificar tupla_colores=()
     
 #CONJUNTOS
     Estan desordenados
-    tupla_colores={}  <--- llaves
+   cojunto_colores={}  <--- llaves
+   agregar datos conjunto.add(6)
+   quitar datos  conjunto.remove(9)
+   saber que tipo de dato  print(type(conjunto)) 
+                            set=conjunto
 
 #DICCIONARIOS
     Coleccion de elementos que estan idenxados, no estan ordenados y se pueden modificar
 se maneja con clave:valor
-ejemplo {ed:rojo} <--- llaves
+ejemplo {red:rojo} <--- llaves
 
+cuando se quiere eliminar --> nombre.pop("")
+                            del(diccionario_colores["black"])
 
+saber clave y valor
+for clave,valor in diccionario_colores.items():
+    print(clave,valor)

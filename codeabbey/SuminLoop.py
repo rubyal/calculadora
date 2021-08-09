@@ -1,9 +1,11 @@
 print("SE INICIA PROGRAMA")
-diccionario_colores={"red":"rojo","blue":"azul", "yellow":"amarillo"}
-print(diccionario_colores)
-diccionario_colores["red"]
-print(diccionario_colores["red"])
-print(diccionario_colores["yellow"])
-diccionario_colores["black"]= "negro"
-print(diccionario_colores)
-print(diccionario_colores["black"])
+conjunto={1,2,3,4,5}
+print(conjunto)
+conjunto.add(6)
+conjunto.add(7)
+conjunto.add(8)
+conjunto.add(9)
+print(conjunto)
+conjunto.remove(9)
+print(conjunto)
+print(type(conjunto))
