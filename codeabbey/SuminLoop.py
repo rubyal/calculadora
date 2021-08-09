@@ -1,11 +1,8 @@
 print("SE INICIA PROGRAMA")
-conjunto={1,2,3,4,5}
-print(conjunto)
-conjunto.add(6)
-conjunto.add(7)
-conjunto.add(8)
-conjunto.add(9)
-print(conjunto)
-conjunto.remove(9)
-print(conjunto)
-print(type(conjunto))
+diccionario={"uno":"one","dos":"two","tres":"three"}
+print(diccionario)
+diccionario["cuatro"]="four"
+print(diccionario)
+dato=input()
+valor=diccionario[dato]
+print(valor)

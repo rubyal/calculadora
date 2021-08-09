@@ -126,7 +126,9 @@ else:
 #DICCIONARIOS
     Coleccion de elementos que estan idenxados, no estan ordenados y se pueden modificar
 se maneja con clave:valor
-ejemplo {red:rojo} <--- llaves
+ejemplo {"red":"rojo"} <--- llaves
+
+añadir clave:valor al diccionario-->diccionario["cuatro"]="four"
 
 cuando se quiere eliminar --> nombre.pop("")
                             del(diccionario_colores["black"])
