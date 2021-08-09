@@ -37,14 +37,6 @@ si no esta en la variable --> is not
 si un dato esta incluido en la lista --> in
 si un dato  NO esta incluido en la lista --> not in
 
-
-
-
-
-
-
-
-
 #LISTAS
 
 cuando quiero crear una lista
@@ -63,3 +55,17 @@ print(colores.remove("rojo"))
 
 cuando quiero quitar contar los datos de una lista
 print(len(colores))
+
+#TUPLA 
+    Coleccion de elementos que no se pueden modificar tupla_colores=()
+    
+#CONJUNTOS
+    Estan desordenados
+    tupla_colores={}  <--- llaves
+
+#DICCIONARIOS
+    Coleccion de elementos que estan idenxados, no estan ordenados y se pueden modificar
+se maneja con clave:valor
+ejemplo {ed:rojo} <--- llaves
+
+
