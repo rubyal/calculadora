@@ -136,3 +136,24 @@ cuando se quiere eliminar --> nombre.pop("")
 saber clave y valor
 for clave,valor in diccionario_colores.items():
     print(clave,valor)
+
+
+#CONDICIONES Y BUCLES
+
+if a > b:
+    print("a es mayor que b")
+if a < b:
+    print("a es menor que b") --> no imprime nada por lo que es false
+if (a<b) and (b<d):
+    print("la primera es correcta")
+else:
+    print("la primera no es correcta")
+
+if a>b:
+    print("a es mayor que b")
+elif (a==b):
+    print("a es igual a b")  ---> verificar 
+else:
+    print("ninguna es correcta")
+
+
