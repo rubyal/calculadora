@@ -1,8 +1,9 @@
 print("SE INICIA PROGRAMA")
-frutas={"manzana":"apple","naranja":"orange","platano":"banana","limon":"lemon"}
-print(frutas)
-print("naranja")
-frutas["piña"]="pimeapple"
-print(frutas)
-for clave,valor in frutas.items():
-    print("{} en ingles es {}".format(clave,valor))
+nota=4
+trabajo_realizado="si"
+if (nota >= 4) and (trabajo_realizado=="si"):
+    nota_final="aprobado"
+    print(nota_final)
+else:
+    nota_final="suspenso"  
+    print(nota_final)
